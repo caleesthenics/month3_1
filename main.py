@@ -53,9 +53,7 @@ def main(page: ft.Page):
             main_db.del_all_tasks()
             load_task()
 
-    def i_was():
-        thinking = 'about'
-        your_beatiful_eyes = 'this whole night...'
+   
 
     del_all_button = ft.ElevatedButton('Удалить все задачи', on_click=del_all)
     task_input = ft.TextField(label='Введите задачу', expand=True, on_submit=add_task)
